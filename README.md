@@ -13,7 +13,7 @@ In this lab, you will learn how to:
 ## Create a default ASP.NET Core webapplication
 
 1.	Start Visual Studio 2017 and hit **CTRL**+**SHIFT**+**N** to create a new project (or click File/New/Project)
-2.	In the 'New Project' view, select **.NET Core** under *Visual C#* and on the right select **ASP.NET Core Web Application (.NET Core)**. 
+2.	In the 'New Project' view, select **.NET Core** under *Visual C#* and on the right select **ASP.NET Core Web Application**. 
 3.  Enter a name for your project and click OK.
 
 	![001 Create a new ASP.NET Core project][1]
@@ -22,7 +22,7 @@ In this lab, you will learn how to:
 	
 	![002 Select the Web Application project template][2]
 
-5.  Build and run the application to make sure everything is working. If everything is OK the web application should show up in your predefined browser with a title identical to the name of the project you set earlier.
+5.  Build (CTRL+SHIFT+B) and run (F5) the application to make sure everything is working. If everything is OK the web application should show up in your predefined browser with a title identical to the name of the project you set earlier.
   
 	![003 Build and run your ASP.NET Core project][3]
 
@@ -32,7 +32,7 @@ In this lab, you will learn how to:
 <a name="publish-to-azure"></a>
 ## Publish the webapplication to Azure
 
-1. If the application is still running in debug, now is the time so stop it.
+1. If the application is still running in debug, now is the time so stop it (either close the browser or in Visual Studio hit SHIFT+F5)
 2. In the Solution Explorer (hit CTRL+W,S to view the Solution Explorer) right click on the project and select **Publish** from the context menu.
    
    ![004 Select Publish in the Solution Explorer context menu][4]
@@ -41,11 +41,12 @@ In this lab, you will learn how to:
    
    ![005 Select Publish in the Solution Explorer context menu][5]
 
-4. In the *Create Ap Service* screen you have to set a unique name as this will be part of url. Also make sure to select the correct type of App Service being **Web App**.
+4. In the *Create Ap Service* screen you have to set a unique _App Name_ value as this will be part of url. Also make sure to select the correct type of App Service being **Web App**. For this demo it's best to change the App Serivce Plan to a **Free** plan so there won't be any additional charges involved.
    
    ![006 Select Publish in the Solution Explorer context menu][6]
 
-5. When you press 'Create' the application is being deployed to Azure which takes a moment. After a while it will open the browser and show you the web application online.
+5. When you press 'Create' the application is being deployed to Azure, which takes a moment. After a while your will open and show you the web application online.
+
    ![007 Your app is online!][7]
 
 <a name="application-insights"></a>
