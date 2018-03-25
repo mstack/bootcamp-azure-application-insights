@@ -45,7 +45,7 @@ In this lab, you will learn how to:
    
    ![006 Select Publish in the Solution Explorer context menu][6]
 
-5. When you press 'Create' the application is being deployed to Azure, which takes a moment. After a while your will open and show you the web application online.
+5. When you press 'Create' the application is being deployed to Azure, which takes a few minutes. After a while your browser will open and show you the web application online.
 
    ![007 Your app is online!][7]
 
